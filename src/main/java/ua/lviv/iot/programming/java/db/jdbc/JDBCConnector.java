@@ -4,6 +4,8 @@ import ua.lviv.iot.programming.java.db.jdbc.model.Student;
 
 public class JDBCConnector {
 
+    
+    //private static Connector
     public Student getStudent() {
         return null;
     }
