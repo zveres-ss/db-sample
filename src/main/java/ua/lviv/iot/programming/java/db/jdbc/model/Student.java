@@ -2,6 +2,11 @@ package ua.lviv.iot.programming.java.db.jdbc.model;
 
 public class Student {
 
+    @Override
+    public String toString() {
+        return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + "]";
+    }
+
     private int id;
 
     private String firstName;
